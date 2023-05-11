@@ -1,27 +1,53 @@
 /* App */
 
 .navBar {
-    
+    height: 50px;
+}
+
+.navBarButton {
+    border: none;
+    background-color: inherit;
+    padding: 14px 0px;
+    font-size: 16px;
+    cursor: pointer;
+    display: inline-block;
+    color: white;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.navBarButton:hover {
+    /* text-decoration: underline; */
+    color: lightgreen;
+}
+
+.space {
+    width: 20px;
+    display: inline-block;
 }
 
 .buttons {
     text-align: left;
     float: left;
+    padding-left: 20px;
 }
 
 .logos {
     text-align: right;
     float: right;
+    padding: 10px;
 }
 
 .logoImages {
-
+    height: 30px;
+    width: 30px;
 }
 
-.body {
-    
+.logoImages:hover {
+    filter: brightness(70%);
 }
 
 .website {
     font-family: Arial, Helvetica, sans-serif;
+    color: white;
 }

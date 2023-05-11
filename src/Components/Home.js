@@ -1,17 +1,23 @@
 import React from 'react';
 import '../Styles/Home.css';
 import Resume from '../Files/resume.pdf';
-
+import Photo from '../Files/image.jpg';
 
 const Home = () => {
 
   return (
     <div className='home'>
-      <h1 className='title'>Joseph Simko</h1>
-      <h2 className='subtitle'>Full Stack Software Engineer</h2>
-      <p className='about'>Software engineer looking to leverage 4+ years of problem solving and consulting skills from the field of financial advising. Self-taught developer with experience creating a full stack web application and proficiency with multiple programming languages and frameworks. Highly organized and dependable with a proven track record of flourishing in a team environment.</p>
-      <a href={Resume} target='_blank' rel='noreferrer'>Resume</a>
-      <a href='mailto:joseph.simko.14@gmail.com'>Email</a>
+      <h1 className='title'>About</h1>
+      {/* <h2 className='subtitle'>Full Stack Software Engineer</h2> */}
+      <h2 className='about'>Hi! My name is Joe Simko and I am Northern Virginia-based software engineer. I have experience with web development and creating a full stack application. Most of the work I'e done is with React.js and Python, but I am always happy to learn a new language or framework. </h2>
+      <div className='links'>
+        <a href={Resume} target='_blank' rel='noreferrer'>Resume</a>
+        <span className='divider'> </span>
+        <a href='mailto:joseph.simko@protonmail.com'>Email</a>
+      </div>
+      <div className='photoContainer'>
+        <img className='photo' src={Photo} alt='Headshot'></img>
+      </div>
     </div>
   );
 }

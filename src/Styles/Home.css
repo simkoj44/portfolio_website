@@ -1,17 +1,51 @@
 /* Home */
 
 .home {
-    
+    margin-top: 5px;
+    padding: 0 12%;
 }
 
 .title {
     text-align: center;
-}
-
-.subtitle {
-    text-align: center;
+    font-size: 50px;
+    margin-top: 0px;
+    margin-bottom: 20px;
 }
 
 .about {
+    text-align: left;
+    margin-top: 10px;
+    border: 2px solid white;
+    padding: 25px;
+}
 
+.links {
+    text-align: center;
+}
+
+a {
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+a:hover {
+    color: lightgreen;
+}
+
+.divider {
+    width: 50px;
+    display: inline-block;
+}
+
+.photoContainer {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.photo {
+    height: 200px;
+    width: 200px;
 }
