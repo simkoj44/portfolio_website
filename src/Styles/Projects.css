@@ -1,29 +1,23 @@
 /* Projects */
+.content {
+    text-align: left;
+    margin: 5%;
+    font-size: 12px;
+}
 
-.projects {
-    margin-top: 5px;
-    margin-bottom: 50px;
+.description {
+    text-align: center;
+}
+
+.descriptionContainer {
+    margin-bottom: 20px;
+    border: 2px solid white;
 }
 
 .header {
     text-align: center;
-    font-size: 50px;
     margin-top: 5px;
-}
-
-.space {
-    width: 20px;
-    display: inline-block;
-}
-
-.projectContainer {
-    display: flex;
-    justify-content: space-between;
-}
-
-.screenshotContainer {
-    margin-left: 5%;
-    width: 43%;
+    font-size: 28px;
 }
 
 img {
@@ -32,25 +26,68 @@ img {
     width: auto\9; /* ie8 */
 }
 
+.projectContainer {
+    width: 85%;
+    margin: auto;
+}
+
+.projects {
+    margin-top: 5px;
+    margin-bottom: 50px;
+}
+
+.screenshot {
+    margin-bottom: 15px;
+}
+
 .screenshot:hover {
     filter: brightness(70%);
 }
 
-.descriptionContainer {
-    width: 43%;
-    border: 2px solid white;
-    display: inline-block;
-    margin-right: 5%;
+.subheader {
+    font-size: 18px;
 }
 
-.description {
-    text-align: center;
+@media screen and (min-width: 450px) {
+    .header {
+        font-size: 32px;
+    }
+    .subheader {
+        font-size: 22px;
+    }
 }
 
-.content {
-    text-align: left;
-    margin: 5%;
-    font-size: 12px;
+@media screen and (min-width: 580px) {
+    .header {
+        font-size: 50px;
+    }
+    .subheader {
+        font-size: 32px;
+    }
+}
+
+@media screen and (min-width: 650px) {
+    .projectContainer {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+    .screenshotContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-right: 5%;
+        width: 43%;
+    }
+    .descriptionContainer {
+        width: 43%;
+        display: inline-block;
+        margin-left: 5%;
+        margin-bottom: 0px;
+    }
+    .screenshot {
+        margin-bottom: 0px;
+    }
 }
 
 @media screen and (min-width: 750px) {
