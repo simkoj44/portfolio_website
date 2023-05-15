@@ -4,6 +4,10 @@ import Screenshot1 from '../Files/screenshot1.png';
 import Screenshot2 from '../Files/screenshot2.png';
 import Screenshot3 from '../Files/screenshot3.png';
 
+// Subcomponent of App
+// This component displays of list of projects with screenshots and links to each website
+// Flexboxes are used for responsive formatting
+
 const Projects = () => {
 
   return (

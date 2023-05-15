@@ -6,6 +6,9 @@ import Projects from './Components/Projects.js';
 import GitHubLogo from './Files/github.png';
 import LinkedInLogo from './Files/linkedin.png';
 
+// Primary application function called when webpage is loaded
+// Contains routing between homepage (Home.js) and project page (Projects.js)
+
 const App = () => {
 
   const navigate = useNavigate();
