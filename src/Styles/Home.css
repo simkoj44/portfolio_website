@@ -10,11 +10,16 @@ a:hover {
 }
 
 .about {
+    font-size: 14px;
+    margin: 0;
+    font-weight: 100;
+}
+
+.container {
     text-align: left;
-    font-size: 16px;
-    margin-top: 10px;
     border: 2px solid white;
     padding: 25px;
+    margin-bottom: 12px;
 }
 
 .divider {
@@ -25,6 +30,10 @@ a:hover {
 .home {
     margin-top: 5px;
     padding: 0 6%;
+}
+
+.listHeader {
+    text-decoration: underline;
 }
 
 .links {
@@ -43,6 +52,11 @@ a:hover {
     justify-content: center;
 }
 
+.skills {
+    margin-bottom: 0;
+    font-size: 14px;
+}
+
 .title {
     text-align: center;
     font-size: 28px;
@@ -58,10 +72,13 @@ a:hover {
         font-size: 32px;
     }
     .about {
-        font-size: 18px;
+        font-size: 16px;
     }
     a {
-        font-size: 18px;
+        font-size: 16px;
+    }
+    .skills {
+        font-size: 16px;
     }
 }
 
@@ -70,9 +87,12 @@ a:hover {
         font-size: 50px;
     }
     .about {
-        font-size: 24px;
+        font-size: 20px;
     }
     a {
+        font-size: 20px;
+    }
+    .skills {
         font-size: 20px;
     }
 }

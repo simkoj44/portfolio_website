@@ -18,7 +18,7 @@ const Projects = () => {
           <div className='description'>
             <h1 className='subheader'>Mixed Drink Menu</h1>
             <div className='content'>
-              <p><strong>Technologies: </strong>HTML, CSS, JavaScript, React.js, MongoDB, MongoDB Realm</p>
+              <p><strong className='technologiesHeader'>Technologies</strong>: HTML, CSS, JavaScript, React.js, MongoDB, MongoDB Realm</p>
               <p>Mixed Drink Menu is a full stack web application. The primary function of the app is it allows users to select the items (ingredients and tools) that they have available for mixing cocktails from several groups of checkboxes. After selecting the items and submitting the form, the app generates three pieces of output:</p>
               <ol>
                 <li>A list of all cocktails the user is able to make, based on their available ingredients.</li>

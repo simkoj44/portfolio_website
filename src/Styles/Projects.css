@@ -46,6 +46,11 @@ img {
 
 .subheader {
     font-size: 18px;
+    text-decoration: underline;
+}
+
+.technologiesHeader {
+    text-decoration: underline;
 }
 
 @media screen and (min-width: 450px) {

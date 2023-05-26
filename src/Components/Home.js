@@ -11,7 +11,10 @@ const Home = () => {
   return (
     <div className='home'>
       <h1 className='title'>About</h1>
-      <h2 className='about'>Hi! My name is Joe Simko and I am Northern Virginia-based software engineer. I have experience with web development and creating a full stack application. Most of the work I've done is with React.js and Python, but I am always happy to learn a new language or framework. </h2>
+      <div className='container'>
+        <h2 className='about'>Hi! My name is Joe Simko and I am Northern Virginia-based software engineer and former financial planner. I have experience with web development and creating a full stack application. Most of the work I've done is with React.js and Python, but I am always happy to learn a new language or framework.</h2>
+        <p className='skills'><strong className='listHeader'>Skills</strong>: Python, JavaScript, React.js, HTML, CSS, Node.js, MongoDB, Git, GitHub, full stack development, web development</p>
+      </div>
       <div className='links'>
         <a href={Resume} target='_blank' rel='noreferrer'>Resume</a>
         <span className='divider'> </span>
