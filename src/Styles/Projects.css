@@ -1,4 +1,12 @@
 /* Projects */
+/* * {
+    border: 1px solid black;
+} */
+
+.calculator {
+    padding: 0 20px 20px 20px;
+}
+
 .content {
     text-align: left;
     margin: 5%;
@@ -12,6 +20,10 @@
 .descriptionContainer {
     margin-bottom: 20px;
     border: 2px solid white;
+}
+
+.divider {
+    height: 20px;
 }
 
 .header {
@@ -80,6 +92,7 @@ img {
     .screenshotContainer {
         display: flex;
         flex-direction: column;
+        align-items: center;
         justify-content: space-between;
         margin-right: 5%;
         width: 43%;

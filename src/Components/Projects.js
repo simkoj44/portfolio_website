@@ -3,6 +3,7 @@ import '../Styles/Projects.css';
 import Screenshot1 from '../Files/screenshot1.png';
 import Screenshot2 from '../Files/screenshot2.png';
 import Screenshot3 from '../Files/screenshot3.png';
+import Screenshot4 from '../Files/screenshot4.png';
 
 // Subcomponent of App
 // This component displays of list of projects with screenshots and links to each website
@@ -38,6 +39,30 @@ const Projects = () => {
           </div>
           <div className='screenshot'>
             <a href='https://www.mixeddrinkmenu.com' target='_blank' rel='noreferrer'><img src={Screenshot3} alt='Screenshot from website'></img></a>
+          </div>
+        </div>
+      </div>
+      <div className='divider'></div>
+      <div className='projectContainer'>
+        <div className='descriptionContainer'>
+          <div className='description'>
+            <h1 className='subheader'>Calculator</h1>
+            <div className='content'>
+              <p><strong className='technologiesHeader'>Technologies</strong>: HTML, CSS, JavaScript</p>
+              <p>This is a basic calculator with the following features: </p>
+              <ol>
+                <li>The calculator can perform the following operations: addition, subtraction, multiplication, and division</li>
+                <li>It has a clear button and backspace button for the display</li>
+                <li>It supports numbers with or without decimal places and is fully functional up to the maximum integer size in JavaScript (2^53 - 1)</li>
+                <li>Error handling is included to prevent issues from exponential notation, Infinity, NaN, division by zero, and numbers larger than the calculator display window</li>
+                <li>The design is responsive to all common screen sizes</li>
+              </ol>
+            </div>
+          </div>
+        </div>
+        <div className='screenshotContainer'>
+          <div className='screenshot calculator'>
+            <a href='https://simkoj44.github.io/calculator/' target='_blank' rel='noreferrer'><img src={Screenshot4} alt='Screenshot from website'></img></a>
           </div>
         </div>
       </div>
