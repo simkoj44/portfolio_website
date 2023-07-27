@@ -12,8 +12,8 @@ const Home = () => {
     <div className='home'>
       <h1 className='title'>About</h1>
       <div className='container'>
-        <h2 className='about'>Hi! My name is Joe Simko and I am Northern Virginia-based software engineer and former financial planner. I have experience with web development and creating a full stack application. Most of the work I've done is with React.js and Python, but I am always happy to learn a new language or framework.</h2>
-        <p className='skills'><strong className='listHeader'>Skills</strong>: Python, JavaScript, React.js, HTML, CSS, Node.js, MongoDB, Git, GitHub, full stack development, web development</p>
+        <h2 className='about'>Hi! My name is Joe Simko and I am Northern Virginia-based software engineer and former financial planner. I have experience with web development and creating a full stack application. Most of the work I've done is with React.js and PHP, but I am always happy to learn a new language or framework.</h2>
+        <p className='skills'><strong className='listHeader'>Skills</strong>: JavaScript, PHP, Python, React.js, MySQL, HTML, CSS, Node.js, MongoDB, Git, GitHub, full stack development, web development, relational databases</p>
       </div>
       <div className='links'>
         <a href={Resume} target='_blank' rel='noreferrer'>Resume</a>
